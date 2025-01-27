@@ -4,14 +4,18 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
 	// const [count, setCount] = useState(0)
 
 	return (
-		<div className=" w-full p-2">
+		<div className=" w-[768px] p-2">
 			<Header />
+			<Body />
+			<Footer />
 		</div>
 	);
 }
