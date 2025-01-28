@@ -4,7 +4,7 @@ import img from "/src/assets/new-family04-juno-i.jpg";
 const Body = () => {
 	return (
 		<div>
-			<div className="flex  gap-1 mt-2 ">
+			<div className="md:flex flex-col  gap-1 mt-2 ">
 				<div className="  w-[76%] border bg-white  border-[#aeaeae] ">
 					<h1 className="px-4">Accelerated Dial-Up Internet Service</h1>
 					<div className="flex bg-white">
