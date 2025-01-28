@@ -24,6 +24,12 @@ body {
 	/* place-items: center; */
 	min-width: 320px;
 	min-height: 100vh;
+	background: linear-gradient(
+		to bottom,
+		#f0f2f3,
+		#ffffff,
+		#ffffff
+	); /* light blue */
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,9 +37,9 @@ body {
 		color: #213547;
 		background-color: #ffffff;
 	}
-	a:hover {
+	/* a:hover {
 		color: #747bff;
-	}
+	} */
 	button {
 		background-color: #f9f9f9;
 	}

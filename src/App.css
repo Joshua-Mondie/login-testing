@@ -1,1 +1,4 @@
 /** @format */
+.homebg {
+	background: linear-gradient(to bottom, #f0f2f3, #ffffff); /* light blue */
+}

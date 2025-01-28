@@ -12,7 +12,7 @@ function App() {
 	// const [count, setCount] = useState(0)
 
 	return (
-		<div className=" w-[768px] p-2">
+		<div className=" w-[768px] ">
 			<Header />
 			<Body />
 			<Footer />

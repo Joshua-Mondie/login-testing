@@ -1,41 +1,78 @@
 /** @format */
-
+import { IoMdArrowDropright } from "react-icons/io";
 const Body = () => {
 	return (
 		<div>
-			<div className="flex h-80 gap-1 mt-2 ">
-				<div className="  w-[70%] border ">
+			<div className="flex  gap-1 mt-2 ">
+				<div className="  w-[76%] border bg-white  border-[#aeaeae] ">
 					<h1 className="px-4">Accelerated Dial-Up Internet Service</h1>
-					<div className="flex">
-						<img src="/src/assets/new-family04-juno-i.jpg" alt="" />
+					<div className="flex bg-white">
+						<img
+							src="/src/assets/new-family04-juno-i.jpg"
+							alt=""
+							width={224}
+							height="300"
+							// className="border"
+						/>
 						<div>
 							<div>
 								<div>
-									<div className="flex text-[#225092;] h-24 justify-center ">
-										<h1 className="text-[40px]  pt-4  font-bold">$</h1>{" "}
-										<span className="text-[75px] font-bold">29</span>
-										<div className=" pt-4">
-											<text className="text-[40px] text-[#225092;] font-bold ">
-												95
-											</text>
-											<br />
-											<span className="text-[16px] text-[#999999] absolute -mt-4 ">
-												a month
-											</span>
+									<div className="flex gap-8 items-center">
+										<div>
+											<div className="flex text-[#225092;] h-24 justify-center tracking-tighter ">
+												<h1 className="text-[40px]  pt-4  font-bold tracking-tighter">
+													$
+												</h1>
+												<span className="text-[75px] font-bold tracking-tighter">
+													29
+												</span>
+												<div className=" pt-4">
+													<text className="text-[40px] text-[#225092;] font-bold tracking-tighter ">
+														95
+													</text>
+													<br />
+													<span className="text-[16px] text-[#999999] absolute -mt-4 ">
+														a month
+													</span>
+												</div>
+											</div>
+											<a
+												href=""
+												className=" text-[11px]  justify-end flex font-bold "
+											>
+												<IoMdArrowDropright className="text-sm text-red-600" />
+												More Info
+											</a>
+										</div>
+										<div className="">
+											<p className=" text-[11px]">Surf up to 5x Faster**</p>
+											<p className=" text-[11px]">Email with spam protection</p>
+											<p className=" text-[11px]">Norton™ AntiVirus</p>
+											<a
+												href=""
+												className="px-3 py-1 rounded-sm text-white text-sm bg-lime-600 hover:text-white"
+											>
+												Sign Up Now
+											</a>
 										</div>
 									</div>
 								</div>
-								<div></div>
+								<a
+									href=""
+									className="block mt-10 text-[#004182] text-[10px] tracking-wider hover:underline"
+								>
+									*Phone charges & restrictions may apply. See billing details.
+								</a>
 							</div>
 							<div></div>
 						</div>
 					</div>
 				</div>
-				<div className="border  w-[30%]">
-					<h1 className="border py-1 px-3 border-[#6a6868] bg-gray-100">
+				<div className="border border-[#aeaeae]  w-[26%] bg-white">
+					<h1 className="border-b py-1 px-3 border-[#aeaeae]  bg-white">
 						Games Unlimited
 					</h1>
-					<div className=" px-3 py-6">
+					<div className=" px-3 py-3">
 						<h1 className=" text-black font-bold text-[13px]">
 							Hundreds of Games with Unlimited Play
 						</h1>
@@ -55,22 +92,30 @@ const Body = () => {
 						<div className="text-sm font-bold flex justify-center  w-full">
 							<h1 className="text-black">First Month FREE</h1>
 						</div>
-						<div>
-							<a href="" className="text-xs">
+						<div className="leading-1 mt-2">
+							<a
+								href=""
+								className="text-[10px] text-[#004182] flex items-center"
+							>
+								<IoMdArrowDropright className="text-xl text-red-600" />
 								Try any game for 60 mins{" "}
 							</a>
 							<br />
-							<a href="" className="text-xs">
+							<a
+								href=""
+								className="text-[10px] text-[#004182] flex items-center"
+							>
+								<IoMdArrowDropright className="text-xl text-red-600" />
 								Order Now
 							</a>
 						</div>
-						<a href="" className="text-xs block mt-4">
-							More details and information
+						<a href="" className="text-[10px] block mt-2 text-[#004182]">
+							*More details and information
 						</a>
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-between border mt-2 py-4 bg-white pl-4 pr-20 items-center">
+			<div className="flex justify-between border border-[#aeaeae] mt-2 py-4 bg-white pl-4 pr-20 items-center">
 				<div>
 					<h1 className="text-xs font-bold">Free Dial-Up Internet Access</h1>
 					<h1 className="text-xs">
@@ -78,16 +123,18 @@ const Body = () => {
 						obligation.
 					</h1>
 				</div>
-				<a href="" className=" text-[#004182] text-xs">
+				<a href="" className=" text-[#004182] text-xs flex items-center">
+					<IoMdArrowDropright className="text-sm text-red-600" />
 					More info
 				</a>
 			</div>
-			<div className="flex justify-between border mt-2 py-4 bg-white  pl-4 pr-20 items-center">
+			<div className="flex justify-between border border-[#aeaeae] mt-2 py-4 bg-white  pl-4 pr-20 items-center">
 				<div>
 					<h1 className="text-xs font-bold ">Free Email</h1>
 					<h1 className="text-xs">Easy signup - no download, no obligation.</h1>
 				</div>
-				<a href="" className=" text-[#004182] text-xs">
+				<a href="" className=" text-[#004182] text-xs flex items-center">
+					<IoMdArrowDropright className="text-sm text-red-600" />
 					More info
 				</a>
 			</div>
@@ -134,7 +181,7 @@ const Body = () => {
 					*Click here for further important details.
 				</a>
 
-				<hr className="mt-4" />
+				<hr className="mt-4 border-[#aeaeae]" />
 			</div>
 
 			<div className="flex justify-between">
