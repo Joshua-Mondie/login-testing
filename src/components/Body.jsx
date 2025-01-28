@@ -4,10 +4,12 @@ import img from "/src/assets/new-family04-juno-i.jpg";
 const Body = () => {
 	return (
 		<div>
-			<div className="md:flex flex-col  gap-1 mt-2 ">
-				<div className="  w-[76%] border bg-white  border-[#aeaeae] ">
-					<h1 className="px-4">Accelerated Dial-Up Internet Service</h1>
-					<div className="flex bg-white">
+			<div className="grid lg:grid-cols-3 gap-1 mt-2 ">
+				<div className=" lg:col-span-2 border bg-white  border-[#aeaeae] ">
+					<h1 className="px-4 text-black">
+						Accelerated Dial-Up Internet Service
+					</h1>
+					<div className="flex flex-col gap-3 lg:flex-row lg:gap-0 items-center lg:items-start bg-white">
 						<img
 							src={img}
 							alt=""
@@ -17,45 +19,47 @@ const Body = () => {
 						/>
 						<div>
 							<div>
-								<div>
-									<div className="flex gap-8 items-center">
-										<div>
-											<div className="flex text-[#225092;] h-24 justify-center tracking-tighter ">
-												<h1 className="text-[40px]  pt-4  font-bold tracking-tighter">
-													$
-												</h1>
-												<span className="text-[75px] font-bold tracking-tighter">
-													29
+								<div className="flex gap-4 items-start">
+									<div>
+										<div className="flex text-[#225092;] justify-center">
+											<h1 className="text-[40px] pt-4 font-bold tracking-tighter">
+												$
+											</h1>
+											<span className="text-[75px] font-bold tracking-tighter">
+												29
+											</span>
+											<div className=" pt-4">
+												<text className="text-[40px] text-[#225092;] font-bold tracking-tighter ">
+													95
+												</text>
+												<br />
+												<span className="text-[16px] text-[#999999] absolute -mt-4 ">
+													a month
 												</span>
-												<div className=" pt-4">
-													<text className="text-[40px] text-[#225092;] font-bold tracking-tighter ">
-														95
-													</text>
-													<br />
-													<span className="text-[16px] text-[#999999] absolute -mt-4 ">
-														a month
-													</span>
-												</div>
 											</div>
-											<a
-												href=""
-												className=" text-[11px]  justify-end flex font-bold "
-											>
-												<IoMdArrowDropright className="text-sm text-red-600" />
-												More Info
-											</a>
 										</div>
-										<div className="">
-											<p className=" text-[11px]">Surf up to 5x Faster**</p>
-											<p className=" text-[11px]">Email with spam protection</p>
-											<p className=" text-[11px]">Norton™ AntiVirus</p>
-											<a
-												href=""
-												className="px-3 py-1 rounded-sm text-white text-sm bg-lime-600 hover:text-white"
-											>
-												Sign Up Now
-											</a>
-										</div>
+										<a
+											href=""
+											className="text-[0.625rem] text-red-600 flex font-bold "
+										>
+											<IoMdArrowDropright className="text-sm text-red-600" />
+											More Info
+										</a>
+									</div>
+									<div className="">
+										<p className=" text-[0.625rem] text-black">
+											Surf up to 5x Faster**
+										</p>
+										<p className=" text-[0.625rem] text-black">
+											Email with spam protection
+										</p>
+										<p className=" text-[0.625r]">Norton™ AntiVirus</p>
+										<a
+											href=""
+											className="px-3 py-1 rounded-sm text-white text-sm bg-lime-600 hover:text-white"
+										>
+											Sign Up Now
+										</a>
 									</div>
 								</div>
 								<a
@@ -69,7 +73,7 @@ const Body = () => {
 						</div>
 					</div>
 				</div>
-				<div className="border border-[#aeaeae]  w-[26%] bg-white">
+				<div className="border border-[#aeaeae]  lg:col-span-1 bg-white">
 					<h1 className="border-b py-1 px-3 border-[#aeaeae]  bg-white">
 						Games Unlimited
 					</h1>
@@ -118,8 +122,10 @@ const Body = () => {
 			</div>
 			<div className="flex justify-between border border-[#aeaeae] mt-2 py-4 bg-white pl-4 pr-20 items-center">
 				<div>
-					<h1 className="text-xs font-bold">Free Dial-Up Internet Access</h1>
-					<h1 className="text-xs">
+					<h1 className="text-xs font-bold text-black">
+						Free Dial-Up Internet Access
+					</h1>
+					<h1 className="text-xs text-black">
 						Enjoy reliable connections, plus Free Juno Email. Easy signup, no
 						obligation.
 					</h1>
@@ -131,8 +137,10 @@ const Body = () => {
 			</div>
 			<div className="flex justify-between border border-[#aeaeae] mt-2 py-4 bg-white  pl-4 pr-20 items-center">
 				<div>
-					<h1 className="text-xs font-bold ">Free Email</h1>
-					<h1 className="text-xs">Easy signup - no download, no obligation.</h1>
+					<h1 className="text-xs font-bold text-black">Free Email</h1>
+					<h1 className="text-xs text-black">
+						Easy signup - no download, no obligation.
+					</h1>
 				</div>
 				<a href="" className=" text-[#004182] text-xs flex items-center">
 					<IoMdArrowDropright className="text-sm text-red-600" />
@@ -140,7 +148,7 @@ const Body = () => {
 				</a>
 			</div>
 
-			<div className="mt-6">
+			<div className="mt-6 p-2">
 				<p className="text-[#939393] font-bold text-[10px]">
 					**Juno Turbo Accelerated Dial-Up accelerates certain web page text and
 					graphics when compared to standard dial-up internet service. Actual

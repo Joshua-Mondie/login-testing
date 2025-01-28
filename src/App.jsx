@@ -12,7 +12,7 @@ function App() {
 	// const [count, setCount] = useState(0)
 
 	return (
-		<div className=" md:w-[768px] border border-red-400 ">
+		<div className="lg:w-[768px] ">
 			<Header />
 			<Body />
 			<Footer />
