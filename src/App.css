@@ -2,3 +2,11 @@
 .homebg {
 	background: linear-gradient(to bottom, #f0f2f3, #ffffff); /* light blue */
 }
+
+.imgbgA {
+	background-image: url("/src/assets/logo_j.gif");
+}
+
+.imgbgB {
+	background-image: url("/src/assets/new-family04-juno-i.jpg");
+}

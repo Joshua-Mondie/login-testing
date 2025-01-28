@@ -1,5 +1,6 @@
 /** @format */
 import { IoMdArrowDropright } from "react-icons/io";
+import img from "/src/assets/new-family04-juno-i.jpg";
 const Body = () => {
 	return (
 		<div>
@@ -8,7 +9,7 @@ const Body = () => {
 					<h1 className="px-4">Accelerated Dial-Up Internet Service</h1>
 					<div className="flex bg-white">
 						<img
-							src="/src/assets/new-family04-juno-i.jpg"
+							src={img}
 							alt=""
 							width={224}
 							height="300"

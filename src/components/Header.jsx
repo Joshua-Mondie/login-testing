@@ -3,6 +3,7 @@
 import { Button } from "@material-tailwind/react";
 import { useState } from "react";
 import LoginPage from "./Login";
+import icon from "/src/assets/logo_j.gif";
 const Header = () => {
 	const [isVisible, setIsVisible] = useState(false);
 
@@ -16,8 +17,8 @@ const Header = () => {
 	return (
 		<div className=" border border-[#aeaeae] homebg  ">
 			<div className="flex justify-between items-center px-4  py-2  ">
-				<div>
-					<img src="/src/assets/logo_j.gif" alt="" />
+				<div className="">
+					<img src={icon} alt="" />
 				</div>
 				<div className="relative">
 					<div className="flex gap-2  justify-center">
