@@ -9,15 +9,15 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
-	// const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
-	return (
-		<div className=" w-[768px] ">
-			<Header />
-			<Body />
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="lg:w-[768px] ">
+      <Header />
+      <Body />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
