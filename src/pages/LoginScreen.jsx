@@ -45,7 +45,7 @@ const LoginScreen = () => {
 								Member ID
 							</label>
 							<Input
-								className="w-[153px] text-[11px]"
+								className="w-[153px] text-[11px] placeholder-gray-500"
 								id="memberId"
 								type="text"
 								placeholder="Enter your Member ID"
