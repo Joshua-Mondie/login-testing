@@ -34,7 +34,7 @@ const LoginScreen = () => {
 
 	return (
 		<div className="border-blue-600 pt-24 px-4 w-80 ">
-			<div className="flex justify-center items-center border w-full rounded-lg bg-gray-100">
+			<div className="flex justify-center items-center  border-gray-400 shadow-lg w-full rounded-lg bg-gray-100">
 				<Card className="w-full  p-6">
 					{/* <CardContent> */}
 					{/* <div className=" justify-end flex">
