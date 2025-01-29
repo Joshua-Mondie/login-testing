@@ -36,16 +36,16 @@ const LoginScreen = () => {
 		<div className="border-blue-600 pt-24 px-4 w-80 ">
 			<div className="flex justify-center items-center  border-gray-400 shadow-lg w-full rounded-lg bg-gray-100">
 				<Card className="w-full  p-6">
-					<h1 className="text-xs font-bold text-center mb-4">
+					<h1 className="text-xs font-bold text-center mb-4 text-black">
 						Sign in to your Email
 					</h1>
 					<form onSubmit={handleSubmit(onSubmit)}>
 						<div className="mb-4 flex gap-5 justify-center items-center">
-							<label htmlFor="memberId" className=" text-[11px]">
+							<label htmlFor="memberId" className=" text-[11px] text-black">
 								Member ID
 							</label>
 							<Input
-								className="w-[153px] text-[11px]"
+								className="w-[153px] text-[11px] border-2 placeholder:text-gray-400"
 								id="memberId"
 								type="text"
 								placeholder="Enter your Member ID"
@@ -63,7 +63,7 @@ const LoginScreen = () => {
 								Password
 							</label>
 							<Input
-								className="w-[153px] text-[11px]"
+								className="w-[153px] text-[11px]  border-2 placeholder:text-gray-400"
 								id="password"
 								type="password"
 								placeholder="Enter your password"
@@ -85,7 +85,7 @@ const LoginScreen = () => {
 
 						<Button
 							type="submit"
-							className="w-full text-black mt-4 "
+							className="w-full text-black mt-4 font-serif "
 							onClick={handleClick}
 						>
 							Login
