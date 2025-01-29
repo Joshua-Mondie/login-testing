@@ -36,19 +36,11 @@ const LoginScreen = () => {
 		<div className="border-blue-600 pt-24 px-4 w-80 ">
 			<div className="flex justify-center items-center  border-gray-400 shadow-lg w-full rounded-lg bg-gray-100">
 				<Card className="w-full  p-6">
-					{/* <CardContent> */}
-					{/* <div className=" justify-end flex">
-						<MdCancel
-							className="hover:cursor-pointer"
-							onClick={hideVisibility}
-						/>
-					</div> */}
-
 					<h1 className="text-xs font-bold text-center mb-4">
 						Sign in to your Email
 					</h1>
 					<form onSubmit={handleSubmit(onSubmit)}>
-						<div className="mb-4 flex gap-5 justify-center items-center">
+						<div className="mb-4 flex gap-5 justify-center items-center placeholder-gray-500">
 							<label htmlFor="memberId" className=" text-[11px]">
 								Member ID
 							</label>
