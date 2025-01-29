@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { Button, Card, Input } from "@material-tailwind/react";
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
+import "./LoginScreen.css";
 
 const LoginScreen = () => {
 	const navigate = useNavigate();
@@ -32,12 +33,12 @@ const LoginScreen = () => {
 					<div className="mb-4">
 						<label
 							htmlFor="memberId"
-							className="block text-sm font-medium text-gray-700 mb-1"
+							// className="block text-sm font-medium text-gray-700 mb-1"
 						>
 							Member ID
 						</label>
 						<Input
-							className="text-sm border-gray-300 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+							// className="text-sm border-gray-300 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
 							id="memberId"
 							type="text"
 							placeholder="Enter your Member ID"
@@ -53,12 +54,12 @@ const LoginScreen = () => {
 					<div className="mb-4">
 						<label
 							htmlFor="password"
-							className="block text-sm font-medium text-gray-700 mb-1"
+							// className="block text-sm font-medium text-gray-700 mb-1"
 						>
 							Password
 						</label>
 						<Input
-							className="text-sm border-gray-300 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
+							// className="text-sm border-gray-300 placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500"
 							id="password"
 							type="password"
 							placeholder="Enter your password"
@@ -73,14 +74,14 @@ const LoginScreen = () => {
 
 					<a
 						href="#"
-						className="block text-sm text-blue-800 text-center mt-2 mb-4 hover:underline"
+						// className="block text-sm text-blue-800 text-center mt-2 mb-4 hover:underline"
 					>
 						Forgot your password?
 					</a>
 
 					<Button
 						type="submit"
-						className="w-full  bg-blue-600 hover:bg-blue-700 text-black"
+						// className="w-full  bg-blue-600 hover:bg-blue-700 text-black"
 						onClick={handleClick}
 					>
 						Login
