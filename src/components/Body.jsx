@@ -10,16 +10,10 @@ const Body = () => {
 						Accelerated Dial-Up Internet Service
 					</h1>
 					<div className="flex flex-col gap-3 lg:flex-row lg:gap-0 items-center lg:items-start bg-white">
-						<img
-							src={img}
-							alt=""
-							width={224}
-							height="300"
-							// className="border"
-						/>
+						<img src={img} alt="" width={214} height="300" />
 						<div>
 							<div>
-								<div className="flex gap-4 items-start">
+								<div className="flex gap-2 items-start">
 									<div>
 										<div className="flex text-[#225092;] justify-center">
 											<h1 className="text-[40px] pt-4 font-bold tracking-tighter">
@@ -40,20 +34,20 @@ const Body = () => {
 										</div>
 										<a
 											href=""
-											className="text-[0.625rem] text-red-600 flex font-bold "
+											className="text-[0.625rem] text-red-600 flex justify-end font-bold "
 										>
 											<IoMdArrowDropright className="text-sm text-red-600" />
 											More Info
 										</a>
 									</div>
-									<div className="">
+									<div className=" mt-8 ml-3">
 										<p className=" text-[0.625rem] text-black">
 											Surf up to 5x Faster**
 										</p>
 										<p className=" text-[0.625rem] text-black">
 											Email with spam protection
 										</p>
-										<p className=" text-[0.625r]">Norton™ AntiVirus</p>
+										<p className=" text-[0.625rem]">Norton™ AntiVirus</p>
 										<a
 											href=""
 											className="px-3 py-1 rounded-sm text-white text-sm bg-lime-600 hover:text-white"
