@@ -40,12 +40,12 @@ const LoginScreen = () => {
 						Sign in to your Email
 					</h1>
 					<form onSubmit={handleSubmit(onSubmit)}>
-						<div className="mb-4 flex gap-5 justify-center items-center placeholder-gray-500">
+						<div className="mb-4 flex gap-5 justify-center items-center">
 							<label htmlFor="memberId" className=" text-[11px]">
 								Member ID
 							</label>
 							<Input
-								className="w-[153px] text-[11px] placeholder-gray-500"
+								className="w-[153px] text-[11px]"
 								id="memberId"
 								type="text"
 								placeholder="Enter your Member ID"
