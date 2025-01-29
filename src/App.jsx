@@ -3,20 +3,21 @@
 // import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+
+import LandingPage from "./pages/LandingPage";
+import LoginScreen from "./pages/LoginScreen";
 
 function App() {
 	// const [count, setCount] = useState(0)
 
 	return (
-		<div className="lg:w-[768px] ">
-			<Header />
-			<Body />
-			<Footer />
-		</div>
+		<Routes>
+			<Route path="/" element={<LoginScreen />} />
+
+			<Route path="/landingpage" element={<LandingPage />} />
+		</Routes>
 	);
 }
 
