@@ -7,16 +7,16 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import LandingPage from "./pages/LandingPage";
-import LoginScreen from "./pages/LoginScreen";
+// import LoginScreen from "./pages/LoginScreen";
 
 function App() {
 	// const [count, setCount] = useState(0)
 
 	return (
 		<Routes>
-			<Route path="/" element={<LoginScreen />} />
+			{/* <Route path="/" element={<LoginScreen />} /> */}
 
-			<Route path="/landingpage" element={<LandingPage />} />
+			<Route path="/" element={<LandingPage />} />
 		</Routes>
 	);
 }
